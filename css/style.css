@@ -297,17 +297,24 @@ input, textarea {
 
 
 @media only screen and (max-width: 700px) {
+
+     .brand {
+        width: 100%;
+    }
+
+    .nav-container ul {
+        width: 100%;
+    }
     .write-up {
-    flex-grow: 2;
-    text-align: center;
     color: #ccc;
     justify-content: center;
     margin: 0 auto;
-    padding: 120px 20px 0 20px;
+    padding: 20px 0px 0 0px;
     position: absolute;
-    top: 250px;
+    top: 570px;
     left: 70px;
     background: #cccccc21;
+    width: 100%;
 }
     .nav-container {
         text-align: center;
@@ -316,6 +323,14 @@ input, textarea {
 
     nav ul {
         justify-content: center;
+    }
+
+    .write-up p, .write-up h5, .write-up button{
+        display: none;
+    }
+
+    .personal-pic {
+        width: 100%;
     }
 
     .personal-pic img {
